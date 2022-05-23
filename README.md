@@ -25,7 +25,7 @@ Built using
 
 ### Applications
 
-[applications_create](https://docs.budibase.com/reference/post_applications)
+`create` → [applications_create](https://docs.budibase.com/reference/post_applications)
 
 ```php
 string $app_id,
@@ -33,7 +33,7 @@ string $name,
 [string $url]
 ```
 
-[applications_update](https://docs.budibase.com/reference/put_applications-appid)
+`update` → [applications_update](https://docs.budibase.com/reference/put_applications-appid)
 
 ```php
 string $app_id,
@@ -41,19 +41,19 @@ string $name,
 [string $url]
 ```
 
-[applications_delete](https://docs.budibase.com/reference/delete_applications-appid)
+`delete` → [applications_delete](https://docs.budibase.com/reference/delete_applications-appid)
 
 ```php
 string $app_id
 ```
 
-[applications_retrieve](https://docs.budibase.com/reference/get_applications-appid)
+`retrieve` → [applications_retrieve](https://docs.budibase.com/reference/get_applications-appid)
 
 ```php
 string $app_id
 ```
 
-[applications_search](https://docs.budibase.com/reference/post_applications-search)
+`search` → [applications_search](https://docs.budibase.com/reference/post_applications-search)
 
 ```php
 string $name
@@ -61,7 +61,7 @@ string $name
 
 ### Queries
 
-[queries_execute](https://docs.budibase.com/reference/post_queries-queryid)
+`execute` → [queries_execute](https://docs.budibase.com/reference/post_queries-queryid)
 
 ```php
 string $app_id,
@@ -72,7 +72,7 @@ string $query_id,
 ]
 ```
 
-[queries_search](https://docs.budibase.com/reference/post_queries-search)
+`search` → [queries_search](https://docs.budibase.com/reference/post_queries-search)
 
 ```php
 string $app_id,
@@ -81,7 +81,7 @@ string $name
 
 ### Rows
 
-[rows_create](https://docs.budibase.com/reference/post_tables-tableid-rows)
+`create` → [rows_create](https://docs.budibase.com/reference/post_tables-tableid-rows)
 
 ```php
 string $app_id,
@@ -89,7 +89,7 @@ string $table_id,
 [array $body]
 ```
 
-[rows_update](https://docs.budibase.com/reference/put_tables-tableid-rows-rowid)
+`update` → [rows_update](https://docs.budibase.com/reference/put_tables-tableid-rows-rowid)
 
 ```php
 string $app_id,
@@ -98,7 +98,7 @@ string $row_id,
 [array $body]
 ```
 
-[rows_delete](https://docs.budibase.com/reference/delete_tables-tableid-rows-rowid)
+`delete` → [rows_delete](https://docs.budibase.com/reference/delete_tables-tableid-rows-rowid)
 
 ```php
 string $app_id,
@@ -106,7 +106,7 @@ string $table_id,
 string $row_id
 ```
 
-[rows_retrieve](https://docs.budibase.com/reference/get_tables-tableid-rows-rowid)
+`retrieve` → [rows_retrieve](https://docs.budibase.com/reference/get_tables-tableid-rows-rowid)
 
 ```php
 string $app_id,
@@ -114,7 +114,7 @@ string $table_id,
 string $row_id
 ```
 
-[rows_search](https://docs.budibase.com/reference/post_tables-tableid-rows-search)
+`search` → [rows_search](https://docs.budibase.com/reference/post_tables-tableid-rows-search)
 
 ```php
 string $app_id,
@@ -130,7 +130,7 @@ object $query,
 
 ### Tables
 
-[tables_create](https://docs.budibase.com/reference/post_tables)
+`create` → [tables_create](https://docs.budibase.com/reference/post_tables)
 
 ```php
 string $app_id,
@@ -141,7 +141,7 @@ string $name,
 ]
 ```
 
-[tables_update](https://docs.budibase.com/reference/put_tables-tableid)
+`update` → [tables_update](https://docs.budibase.com/reference/put_tables-tableid)
 
 ```php
 string $app_id,
@@ -151,21 +151,21 @@ object $schema,
 [string $primaryDisplay]
 ```
 
-[tables_delete](https://docs.budibase.com/reference/delete_tables-tableid)
+`delete` → [tables_delete](https://docs.budibase.com/reference/delete_tables-tableid)
 
 ```php
 string $app_id,
 string $table_id
 ```
 
-[tables_retrieve](https://docs.budibase.com/reference/get_tables-tableid)
+`retrieve` → [tables_retrieve](https://docs.budibase.com/reference/get_tables-tableid)
 
 ```php
 string $app_id,
 string $table_id
 ```
 
-[tables_search](https://docs.budibase.com/reference/post_tables-search)
+`search` → [tables_search](https://docs.budibase.com/reference/post_tables-search)
 
 ```php
 string $app_id,
@@ -174,7 +174,7 @@ string $name
 
 ### Users
 
-[users_create](https://docs.budibase.com/reference/post_users)
+`create` → [users_create](https://docs.budibase.com/reference/post_users)
 
 ```php
 string $email,
@@ -190,7 +190,7 @@ object $roles,
 ]
 ```
 
-[users_update](https://docs.budibase.com/reference/put_users-userid)
+`update` → [users_update](https://docs.budibase.com/reference/put_users-userid)
 
 ```php
 string $user_id,
@@ -207,19 +207,19 @@ object $roles,
 ]
 ```
 
-[users_delete](https://docs.budibase.com/reference/delete_users-userid)
+`delete` → [users_delete](https://docs.budibase.com/reference/delete_users-userid)
 
 ```php
 string $user_id
 ```
 
-[users_retrieve](https://docs.budibase.com/reference/get_users-userid)
+`retrieve` → [users_retrieve](https://docs.budibase.com/reference/get_users-userid)
 
 ```php
 string $user_id
 ```
 
-[users_search](https://docs.budibase.com/reference/post_users-search)
+`search` → [users_search](https://docs.budibase.com/reference/post_users-search)
 
 ```php
 string $name
