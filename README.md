@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hope-IT-Works/budibase-php/main/resources/graphics/logo/budibase-php.svg" alt="budibase-php_logo" style="width: 50%"/>
+  <img src="https://raw.githubusercontent.com/Hope-IT-Works/Budibase-PHP/main/resources/graphics/logo/budibase-php.svg" alt="budibase-php_logo" style="width: 50%"/>
 </p>
 <h1 align="center">budibase-php</h1>
 <h3 align="center">Budibase API wrapper for php</h3>
@@ -225,4 +225,4 @@ string $user_id
 string $name
 ```
 
-![budibase-php](https://socialify.git.ci/Hope-IT-Works/budibase-php/image?description=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FHope-IT-Works%2Fbudibase-php%2Fmain%2Fresources%2Fgraphics%2Flogo%2Fbudibase-php.svg&name=1&owner=1&pattern=Solid&theme=Light)
+![budibase-php](https://socialify.git.ci/Hope-IT-Works/Budibase-PHP/image?description=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FHope-IT-Works%2Fbudibase-php%2Fmain%2Fresources%2Fgraphics%2Flogo%2Fbudibase-php.svg&name=1&owner=1&pattern=Solid&theme=Light)
