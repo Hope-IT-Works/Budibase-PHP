@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Hope-IT-Works/Budibase-PHP/main/resources/graphics/logo/budibase-php.svg" alt="budibase-php_logo" style="width: 50%"/>
 </p>
 <h1 align="center">Budibase-PHP</h1>
-<h3 align="center">Budibase API wrapper for php</h3>
+<h3 align="center">Budibase API wrapper for PHP</h3>
 
 ## About
 
