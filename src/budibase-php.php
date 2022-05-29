@@ -373,6 +373,4 @@ class BudibasePHP {
     }
 }
 
-$budibasePHP = new BudibasePHP("");
-
 ?>
