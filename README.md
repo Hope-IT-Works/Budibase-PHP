@@ -21,6 +21,12 @@ Built using
 - [Budibase API Reference](https://docs.budibase.com/reference)
 - [GitHub Copilot](https://copilot.github.com/)
 
+## Status
+
+Budibase-PHP is in developement state and probably not ready for production environments.
+
+Test the wrapper & let me know if something is wrong.
+
 ## Documentation
 
 ### Applications
